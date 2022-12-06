@@ -15,7 +15,7 @@
 header{
 	width: 100%;
 	height: 100vh;
-background:linear-gradient(rgba(166, 166, 166,0.4),rgba(166, 166, 166,0.5),rgba(166, 166, 166,0.5)),url('file:///C:/Users/Gateway/Downloads/pexels-belle-co-847393.jpg');
+background:linear-gradient(rgba(0, 166, 166,0.4),rgba(0, 166, 160,0.5),rgba(0, 166, 166,0.5)),url('header.png');
 
 	background-position: center;
 	background-size: cover;
@@ -496,8 +496,7 @@ margin: 20px 10px;
 	box-sizing: border-box;
 	transition: all 1s;
 	/*transform: scale(0.8);*/
-animation: heading 10s  forwards;
-animation-iteration-count: 3;
+animation: heading 10s infinite;
 
 
 
@@ -505,35 +504,35 @@ animation-iteration-count: 3;
 @keyframes heading{
 	0%{
 
-background:url('file:///C:/Users/Gateway/Desktop/imgefoldet/img6.jpeg');
+background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/fish4.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	25%{
 
-background:url('file:///C:/Users/Gateway/Desktop/imgefoldet/img28.jpeg');
+background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/seagul2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	50%{
 
-background:url('file:///C:/Users/Gateway/Desktop/imgefoldet/download7.jpeg');
+background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/seal2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	75%{
 
-background:url('file:///C:/Users/Gateway/Desktop/imgefoldet/img11.jpeg');
+background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/whale3.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	100%{
 
-background: url('file:///C:/Users/Gateway/Desktop/imgefoldet/img10.jpeg');
+background: url('file:///C:/Users/PC/Desktop/sea%20website/imag/dolphin4.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -543,8 +542,7 @@ background: url('file:///C:/Users/Gateway/Desktop/imgefoldet/img10.jpeg');
 
 .content-img h1:after{
 	content: "";
-	animation: content 10s  forwards;
-	animation-iteration-count: 3;
+	animation: content 10s infinite;
 	color:black;
 	text-transform: capitalize;
 	font-size: 2rem;
@@ -555,7 +553,7 @@ content:"fish";
 
 	}
 	25%{
-content:"sea hores" ;
+content:"sea gull" ;
 
 	}
 	50%{
@@ -726,7 +724,7 @@ height:80%;
 .countstory{
 	width: 100%;
 	height: 70vh;
-	background: url('file:///C:/Users/Gateway/Desktop/imgefoldet/images9.jpeg');
+	background: url('file:///C:/Users/PC/Desktop/sea%20website/imag/jellyfish4.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:100% 100%;
@@ -749,10 +747,10 @@ height:80%;
 	opacity: 0.2;
 }
 .box h1{
-	color: var(--primary-color);
+	color: white;
 }
 .box h3{
-	color:var(--third-color) ;
+	color:white ;
 }
 .section4{
 	margin-top:50px ;
@@ -769,7 +767,7 @@ height:80%;
 */}
 	.contact-img img{
 		width: 100%;
-		height: 100%;
+		height:300px;
 	   padding: 50px 10px 20px 10px;
 		object-fit: cover;
 		animation: updown 2s ease-in infinite;
