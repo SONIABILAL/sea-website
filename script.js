@@ -19,3 +19,9 @@ function choose_Animal(id){
 			
 		}
 	}
+	$('.menue-bar').click(function(){
+		$('nav').toggleClass('active')
+		
+
+	})
+
