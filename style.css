@@ -513,35 +513,35 @@ animation: heading 10s infinite;
 @keyframes heading{
 	0%{
 
-background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/fish5.jpg');
+background:url('fish.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	25%{
 
-background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/seagul3.jpg');
+background:url('seal.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	50%{
 
-background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/seal3.jpg');
+background:url('seal.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	75%{
 
-background:url('file:///C:/Users/PC/Desktop/sea%20website/imag/whale1.jpg');
+background:url('whale.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 	100%{
 
-background: url('file:///C:/Users/PC/Desktop/sea%20website/imag/dolphin2.jpg');
+background: url('dolphin.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -733,7 +733,7 @@ height:80%;
 .countstory{
 	width: 100%;
 	height: 70vh;
-	background: url('file:///C:/Users/PC/Desktop/sea%20website/imag/fish3.jpg');
+	background: url('bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:100% 100%;
